@@ -1,0 +1,62 @@
+
+.logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  float: right;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+.menu, a{
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.main_header{
+  padding-top: 3em;
+  margin-left: 40%;
+}
+
+.content {
+  white-space: pre;
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* Tablet Layout */
+@media screen and (max-width: 768px){
+
+  .content {
+    width: 100%; 
+    border: 1px solid #000000;
+    white-space: pre-line;
+  }
+
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 480px){
+
+  .menu {
+    margin-right: 20%;
+  }
+  .logo {
+    margin-left: 38%;
+  }
+  .main_header {
+    padding-top: 5em;
+    margin-left: 20%;
+  }
+}
+
+
